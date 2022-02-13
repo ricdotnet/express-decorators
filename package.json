@@ -2,15 +2,19 @@
   "name": "@ricdotnet/decorators",
   "version": "0.0.6",
   "description": "Decorators for express type apis written in Typescript",
-  "main": "index.ts",
+  "main": "index",
   "scripts": {
     "build": "tsc -b --clean && tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-dir": "^0.1.17",
+    "reflect-metadata": "^0.1.13"
+  },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "reflect-metadata": "^0.1.13",
-    "node-dir": "^0.1.17"
+    "@types/node-dir": "^0.0.34"
   },
   "keywords": [
     "ts",
