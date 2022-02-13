@@ -4,6 +4,7 @@
   "description": "Decorators for express type apis written in Typescript",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc -b --clean && tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import {IController} from "./Interfaces/IController";
 import {IRouteMetaData} from "./Interfaces/IRouteMetaData";
-import {RequestContext} from "./Routing";
+import {RequestContext} from "./Routing/index";
 
 export class RegisterRoutes {
   app: Express;

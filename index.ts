@@ -1,3 +1,3 @@
-import {RegisterRoutes} from './RegisterRoutes'
+import {RegisterRoutes} from './src/RegisterRoutes'
 
 export {RegisterRoutes};
