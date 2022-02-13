@@ -1,6 +1,6 @@
 {
   "name": "@ricdotnet/decorators",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Decorators for express type apis written in Typescript",
   "main": "index",
   "scripts": {
