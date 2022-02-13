@@ -1,1 +1,2 @@
-export {RegisterRoutes} from './index';
+import { RegisterRoutes } from './RegisterRoutes';
+export { RegisterRoutes };
