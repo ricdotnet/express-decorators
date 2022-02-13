@@ -1,0 +1,1 @@
+export {RegisterRoutes} from './index';

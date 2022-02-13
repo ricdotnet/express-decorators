@@ -2,7 +2,7 @@
   "name": "@ricdotnet/decorators",
   "version": "0.0.2",
   "description": "Decorators for express type apis written in Typescript",
-  "main": "index.ts",
+  "main": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
